@@ -1,27 +1,32 @@
 # Building Virtual Environments (AI Plus One)
 
-**Compact first draft.** Five original chapters and an inspectable 3D gallery. This is not a finished textbook, an institution's course, or a replacement for an existing course companion. You should be able to follow a short program and move files; no previous real-time 3D work is assumed.
+**Status:** Compact first draft
+
+## About the book
+
+Five original chapters and an inspectable 3D gallery. This is not a finished textbook, an institution's course, or a replacement for an existing course companion. You should be able to follow a short program and move files; no previous real-time 3D work is assumed.
 
 The design problem is a reading gallery someone can enter, understand and leave. Build the same evidence twice: once as a spatial explanation, then as a run that someone else can check. Each chapter starts from ideas that carry across engines. The optional project uses Godot 4 and generated primitive shapes; it imports no external meshes, textures, plugins or agent dependencies.
 
 ## Learning outcomes
 
-After working through this draft, readers should be able to:
-
 - Organize a scene and use layout, transforms, and visual cues to make it readable.
 - Design motion, collision, and interaction rules that can be tested in the engine.
 - Use an observed run, visual checks, and measurements to explain what a scene does and what still needs playtesting.
 
-## Chapters
+## Read the book
+
+Start with [Make a scene you can reason about](chapters/01-scene.md) or browse the [chapters folder](chapters/).
 
 1. [Make a scene you can reason about](chapters/01-scene.md)
 2. [Build a readable environment](chapters/02-readability.md)
 3. [Design movement and collision](chapters/03-motion.md)
 4. [Connect actions to state](chapters/04-interaction.md)
 5. [Evaluate before handing off](chapters/05-validation.md)
-6. [Independent transfer capstone and evidence sheet](practice/capstone.md)
 
-## Run the optional lab
+## Resources
+
+- [Independent transfer capstone and evidence sheet](practice/capstone.md)
 
 From the book root, use a Godot 4 binary named `godot` or substitute your local executable's full path:
 
