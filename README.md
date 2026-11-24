@@ -4,6 +4,16 @@
 
 The design problem is a reading gallery someone can enter, understand and leave. Build the same evidence twice: once as a spatial explanation, then as a run that someone else can check. Each chapter starts from ideas that carry across engines. The optional project uses Godot 4 and generated primitive shapes; it imports no external meshes, textures, plugins or agent dependencies.
 
+## Learning outcomes
+
+After working through this draft, readers should be able to:
+
+- Organize a scene and use layout, transforms, and visual cues to make it readable.
+- Design motion, collision, and interaction rules that can be tested in the engine.
+- Use an observed run, visual checks, and measurements to explain what a scene does and what still needs playtesting.
+
+## Chapters
+
 1. [Make a scene you can reason about](chapters/01-scene.md)
 2. [Build a readable environment](chapters/02-readability.md)
 3. [Design movement and collision](chapters/03-motion.md)
