@@ -1,0 +1,19 @@
+; Original primitive-only teaching scene, Godot 4.
+config_version=5
+
+[application]
+config/name="Reading Room Relay"
+run/main_scene="res://gallery.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[display]
+window/size/viewport_width=900
+window/size/viewport_height=650
+window/stretch/mode="canvas_items"
+
+[physics]
+common/physics_ticks_per_second=60
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

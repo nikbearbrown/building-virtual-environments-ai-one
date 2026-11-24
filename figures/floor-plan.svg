@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 610" role="img" aria-labelledby="t d">
+  <title id="t">Reading Room Relay floor plan</title>
+  <desc id="d">A bounded square. The visitor starts south of the divider, uses its center northbound opening, visits the northwest kiosk, and leaves by an ordinary eastern gap. North is negative z and world x points right.</desc>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3 L0,6 Z" fill="#155366"/></marker></defs>
+  <rect width="840" height="610" fill="#fff"/>
+  <g fill="#162943" font-family="Arial, sans-serif">
+    <text x="62" y="48" font-size="30" font-weight="bold">Reading Room Relay</text>
+    <text x="62" y="77" font-size="19">Top view: world y is vertical, perpendicular to this plan.</text>
+    <rect x="80" y="110" width="440" height="440" fill="#ebf0f3" stroke="#24384f" stroke-width="5"/>
+    <path d="M80,330 H260 M340,330 H414 M494,330 H520" stroke="#24384f" stroke-width="10"/>
+    <path d="M263,330 H337" stroke="#647585" stroke-width="4" stroke-dasharray="5 5"/>
+    <rect x="150" y="193" width="80" height="49" fill="#dce8e9" stroke="#24384f" stroke-width="2"/>
+    <text x="190" y="223" text-anchor="middle" font-size="20" font-weight="bold">Kiosk</text>
+    <circle cx="397" cy="242" r="6" fill="#24384f"/>
+    <text x="397" y="216" font-size="18" text-anchor="middle">Sign anchor</text>
+    <circle cx="300" cy="451" r="8" fill="#162943"/>
+    <text x="300" y="482" font-size="20" text-anchor="middle" font-weight="bold">Start</text>
+    <path d="M300,440 V282 H190 V247" stroke="#155366" fill="none" stroke-width="4" marker-end="url(#a)"/>
+    <path d="M206,256 H454 V399" stroke="#155366" fill="none" stroke-width="4" stroke-dasharray="8 5" marker-end="url(#a)"/>
+    <text x="196" y="357" font-size="18" text-anchor="middle">Direction gate</text>
+    <text x="454" y="428" font-size="18" text-anchor="middle">East return</text>
+    <path d="M586,179 V127" stroke="#155366" stroke-width="3" fill="none" marker-end="url(#a)"/>
+    <path d="M586,179 H649" stroke="#155366" stroke-width="3" fill="none" marker-end="url(#a)"/>
+    <text x="586" y="112" font-size="19" text-anchor="middle">North: −z</text>
+    <text x="651" y="203" font-size="19" text-anchor="middle">East: +x</text>
+    <text x="560" y="258" font-size="21" font-weight="bold">Map key</text>
+    <path d="M560,282 h40" stroke="#24384f" stroke-width="8"/>
+    <text x="613" y="289" font-size="18">Solid wall</text>
+    <path d="M560,316 h40" stroke="#155366" stroke-width="4"/>
+    <text x="613" y="323" font-size="18">Outbound route</text>
+    <path d="M560,350 h40" stroke="#155366" stroke-width="4" stroke-dasharray="8 5"/>
+    <text x="613" y="357" font-size="18">Return route</text>
+    <text x="560" y="410" font-size="17">East gap is physically</text>
+    <text x="560" y="435" font-size="17">open in both directions.</text>
+    <text x="80" y="588" font-size="17">Diagram, not a camera frame. The floor is ten by ten world units.</text>
+  </g>
+</svg>
